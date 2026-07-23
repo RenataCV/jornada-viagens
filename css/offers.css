@@ -11,11 +11,10 @@
 
 .offers-cards .card {
   color: var(--text-secondary-color);
-  background-color: black;
-  padding: 24px 16px;
   width: 312px;
   height: 288px;
   box-sizing: border-box;
+  padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
 }
@@ -90,7 +89,8 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .offers-cards .card {
+  .offers-cards {
     width: 1250px;
+    margin: 0 auto;
   }
 }
